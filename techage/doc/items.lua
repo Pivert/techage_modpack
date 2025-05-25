@@ -230,6 +230,7 @@ local items = {
 for name, image in pairs(items) do
 	doclib.add_manual_image("techage", "DE", name, image)
 	doclib.add_manual_image("techage", "EN", name, image)
+	doclib.add_manual_image("techage", "FR", name, image)
 	doclib.add_manual_image("techage", "pt-BR", name, image)
 	doclib.add_manual_image("techage", "RU", name, image)
 end
