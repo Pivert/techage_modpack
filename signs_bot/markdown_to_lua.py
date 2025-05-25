@@ -199,3 +199,7 @@ m2l.gen_lua_file("./manual_EN.lua")
 m2l = MarkdownToLua()
 m2l.parse_md_file("./manual_DE.md")
 m2l.gen_lua_file("./manual_DE.lua")
+
+m2l = MarkdownToLua()
+m2l.parse_md_file("./manual_FR.md")
+m2l.gen_lua_file("./manual_FR.lua")
